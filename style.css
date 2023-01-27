@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    background: rgb(120,235,170);
+    background: linear-gradient(0deg, rgba(120,235,170,1) 0%, rgba(253,244,45,1) 100%);
+    font-size: 20px;
+    font-style: comic; 
+}
+div {
+    margin-block: 10px;
+    padding: 20px;
+}
+nav h2>a {
+    width: 50%;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+}
+div#fondo{
+    max-width: 100%;
+    width: 100%;
+    height: 400px;
+    background-image: url(./assets/design1_image2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.active {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    font-size: 100px;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+h3 {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top:400px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+img {
+    max-width: 100%;
+    width: 300px;
+}
+div> figure {
+    position: absolute;
+    left: 85%;
+    top: 250px;
+    z-index: 1;
+}
