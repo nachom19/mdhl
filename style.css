@@ -7,11 +7,14 @@ html {
     background: rgb(120,235,170);
     background: linear-gradient(0deg, rgba(120,235,170,1) 0%, rgba(253,244,45,1) 100%);
     font-size: 20px;
-    font-style: comic; 
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 div {
     margin-block: 10px;
     padding: 20px;
+}
+nav{
+    width: 30%;
 }
 nav h2>a {
     width: 50%;
@@ -36,10 +39,12 @@ div#fondo{
     color: black;
 }
 h1 {
+    color: rgb(153, 221, 206);
     font-size: 100px;
     position: absolute;
     top: 20px;
     left: 300px;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
 }
 h3 {
     background-color: black;
@@ -56,7 +61,20 @@ img {
 }
 div> figure {
     position: absolute;
-    left: 85%;
-    top: 250px;
+    right: 2%;
+    bottom: 350px;
     z-index: 1;
+}
+h4,p{
+    max-width: 60%;
+    position: relative;
+    bottom: 250px;
+    left: 400px;
+}
+h4{
+    font-size: 30px;
+}
+p{
+    padding: 10px;
+    margin-left: 20px;
 }
