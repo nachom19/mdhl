@@ -62,13 +62,13 @@ img {
 div> figure {
     position: absolute;
     right: 2%;
-    bottom: 350px;
+    bottom: 450px;
     z-index: 1;
 }
 h4,p{
     max-width: 60%;
     position: relative;
-    bottom: 250px;
+    bottom: 450px;
     left: 400px;
 }
 h4{
