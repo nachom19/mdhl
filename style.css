@@ -17,7 +17,7 @@ nav{
     width: 30%;
 }
 nav h2>a {
-    width: 50%;
+    width: 80%;
     height: 100px;
     display: inline-block;
     vertical-align: top;
@@ -40,10 +40,10 @@ div#fondo{
 }
 h1 {
     color: rgb(153, 221, 206);
-    font-size: 100px;
+    font-size: 80px;
     position: absolute;
-    top: 20px;
-    left: 300px;
+    top: 5px;
+    left: 50px;
     text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
 }
 h3 {
@@ -57,12 +57,12 @@ h3 {
 }
 img {
     max-width: 100%;
-    width: 300px;
+    width: 200px;
 }
 div> figure {
     position: absolute;
-    right: 2%;
-    bottom: 450px;
+    right: 1%;
+    bottom: 50px;
     z-index: 1;
 }
 h4,p{
@@ -77,4 +77,29 @@ h4{
 p{
     padding: 10px;
     margin-left: 20px;
+}
+dt,dd, td, th{
+    max-width: 60%;
+    position: relative;
+    bottom: 450px;
+    left: 400px;
+}
+dd,li{
+    padding: 10px;
+    margin-left: 20px;
+}
+#sublista{
+    list-style-type: lower-alpha;
+}
+ul{
+    list-style-type: circle;
+    margin-left: 20px;
+}
+dt{
+    font-size: 30px;
+}
+td, th{
+    padding: 2px;
+    text-align: center;
+    padding-left: 20px;
 }
